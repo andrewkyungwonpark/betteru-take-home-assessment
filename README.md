@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# betteru-take-home-assessment
-Frontend Engineer take home assessment for BetterU
-=======
 # BetterU Assessment — LMS Dashboard (wireframe)
 
 A wireframe of a Learning Management System dashboard: browse a course
@@ -225,14 +221,11 @@ Due to time constraints of the project, there were a number of decisions I had t
 - AI tool used: Claude
 - I typically like using the following prompts to help me with my development:
   1. Give me a "confidence rating" out of 100 of what was just created.
-
-
-      - Typically this works quite well as I have found that this forces the AI tool to grade itself and allows me to dive deeper into whatever was created and see with my own eyes as to why Claude graded X compment an "85" as opposed to a rating that is 90+
+     - Typically this works quite well as I have found that this forces the AI tool to grade itself and allows me to dive deeper into whatever was created and see with my own eyes as to why Claude graded X compment an "85" as opposed to a rating that is 90+
 
   2. After asking for a revision, I asked "Tell me exactly which files/which lines were changed".
+     - I found this particularly helpful again because I wanted to see what specifically was fixed/adjusted even though I was aware of what was changed. This allowed me to dive into the codebase to gain a fuller understanding of the actual changes rather than blindly trust Claude
 
-
-      - I found this particularly helpful again because I wanted to see what specifically was fixed/adjusted even though I was aware of what was changed. This allowed me to dive into the codebase to gain a fuller understanding of the actual changes rather than blindly trust Claude
 - When first creating the wireframe for this LMS I noticed immediately that Claude had generated its own schema and actually based multiple files off that schema it had created. It took some digging around and looking at all the different files and components for me to realize where it deviated from the schema that was provided and I had to double back and change the schema itself along with the downstream changes that resulted in said change.
 
 ### Future Work
@@ -242,4 +235,3 @@ Some stretch fetaures I thought of implementing if I had more time:
 1. A reset progress button somewhere within the course, perhaps only usable when the course is completed.
 2. A "related courses" widget when clicking onto an individual course (i.e. showing other React courses on the sidebar)
 3. Dark mode toggle
->>>>>>> 149e754... feat: committing all files
