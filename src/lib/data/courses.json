@@ -1,0 +1,639 @@
+[
+  {
+    "id": "course-react-fundamentals",
+    "title": "React Fundamentals",
+    "description": "Learn component architecture, JSX, props, state, and the hooks you will use every day in modern React applications.",
+    "category": "Web Development",
+    "difficulty": "Beginner",
+    "durationMinutes": 480,
+    "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=450&fit=crop",
+    "instructor": "Alex Rivera",
+    "rating": 4.8,
+    "enrolledCount": 12450,
+    "modules": [
+      {
+        "id": "mod-react-intro",
+        "title": "Getting Started with React",
+        "lessons": [
+          {
+            "id": "lesson-what-is-react",
+            "title": "What Is React?",
+            "durationMinutes": 12
+          },
+          {
+            "id": "lesson-dev-environment",
+            "title": "Setting Up Your Dev Environment",
+            "durationMinutes": 18
+          },
+          {
+            "id": "lesson-first-component",
+            "title": "Your First Component",
+            "durationMinutes": 22
+          }
+        ]
+      },
+      {
+        "id": "mod-react-state",
+        "title": "State and Events",
+        "lessons": [
+          {
+            "id": "lesson-usestate",
+            "title": "Managing State with useState",
+            "durationMinutes": 25
+          },
+          {
+            "id": "lesson-event-handling",
+            "title": "Handling User Events",
+            "durationMinutes": 20
+          },
+          {
+            "id": "lesson-controlled-inputs",
+            "title": "Controlled Inputs",
+            "durationMinutes": 24
+          }
+        ]
+      },
+      {
+        "id": "mod-react-effects",
+        "title": "Side Effects and Data Fetching",
+        "lessons": [
+          {
+            "id": "lesson-useeffect",
+            "title": "Introduction to useEffect",
+            "durationMinutes": 28
+          },
+          {
+            "id": "lesson-fetching-data",
+            "title": "Fetching Data in Components",
+            "durationMinutes": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-nextjs-app-router",
+    "title": "Next.js App Router in Practice",
+    "description": "Build production-ready apps with the App Router, Server Components, layouts, and route handlers.",
+    "category": "Web Development",
+    "difficulty": "Intermediate",
+    "durationMinutes": 720,
+    "thumbnail": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=450&fit=crop",
+    "instructor": "Jordan Lee",
+    "rating": 4.9,
+    "enrolledCount": 8920,
+    "modules": [
+      {
+        "id": "mod-next-routing",
+        "title": "Routing and Layouts",
+        "lessons": [
+          {
+            "id": "lesson-app-router-basics",
+            "title": "App Router Basics",
+            "durationMinutes": 20
+          },
+          {
+            "id": "lesson-nested-layouts",
+            "title": "Nested Layouts",
+            "durationMinutes": 26
+          },
+          {
+            "id": "lesson-dynamic-routes",
+            "title": "Dynamic Routes",
+            "durationMinutes": 24
+          }
+        ]
+      },
+      {
+        "id": "mod-next-data",
+        "title": "Data Patterns",
+        "lessons": [
+          {
+            "id": "lesson-server-components",
+            "title": "Server vs Client Components",
+            "durationMinutes": 32
+          },
+          {
+            "id": "lesson-route-handlers",
+            "title": "Route Handlers",
+            "durationMinutes": 28
+          },
+          {
+            "id": "lesson-caching",
+            "title": "Caching Strategies",
+            "durationMinutes": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-typescript-essentials",
+    "title": "TypeScript Essentials for Frontend Engineers",
+    "description": "Write safer React code with interfaces, generics, utility types, and strict compiler settings.",
+    "category": "Web Development",
+    "difficulty": "Intermediate",
+    "durationMinutes": 540,
+    "thumbnail": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800&h=450&fit=crop",
+    "instructor": "Sam Patel",
+    "rating": 4.7,
+    "enrolledCount": 10340,
+    "modules": [
+      {
+        "id": "mod-ts-basics",
+        "title": "Core TypeScript",
+        "lessons": [
+          {
+            "id": "lesson-basic-types",
+            "title": "Basic Types and Inference",
+            "durationMinutes": 18
+          },
+          {
+            "id": "lesson-interfaces",
+            "title": "Interfaces and Type Aliases",
+            "durationMinutes": 22
+          },
+          {
+            "id": "lesson-unions",
+            "title": "Unions and Discriminated Unions",
+            "durationMinutes": 26
+          }
+        ]
+      },
+      {
+        "id": "mod-ts-react",
+        "title": "TypeScript with React",
+        "lessons": [
+          {
+            "id": "lesson-typing-props",
+            "title": "Typing Component Props",
+            "durationMinutes": 24
+          },
+          {
+            "id": "lesson-typing-hooks",
+            "title": "Typing Hooks and Context",
+            "durationMinutes": 28
+          },
+          {
+            "id": "lesson-generics",
+            "title": "Generics in UI Components",
+            "durationMinutes": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-ui-design-systems",
+    "title": "Building UI Design Systems",
+    "description": "Create scalable design tokens, reusable primitives, and accessible component libraries with Tailwind and shadcn/ui.",
+    "category": "Design",
+    "difficulty": "Intermediate",
+    "durationMinutes": 600,
+    "thumbnail": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&h=450&fit=crop",
+    "instructor": "Morgan Chen",
+    "rating": 4.6,
+    "enrolledCount": 5670,
+    "modules": [
+      {
+        "id": "mod-design-tokens",
+        "title": "Foundations",
+        "lessons": [
+          {
+            "id": "lesson-design-tokens",
+            "title": "Design Tokens and Theming",
+            "durationMinutes": 20
+          },
+          {
+            "id": "lesson-typography",
+            "title": "Typography Scale",
+            "durationMinutes": 18
+          },
+          {
+            "id": "lesson-color-system",
+            "title": "Color Systems",
+            "durationMinutes": 22
+          }
+        ]
+      },
+      {
+        "id": "mod-design-components",
+        "title": "Component Patterns",
+        "lessons": [
+          {
+            "id": "lesson-primitives",
+            "title": "Primitive Components",
+            "durationMinutes": 25
+          },
+          {
+            "id": "lesson-composition",
+            "title": "Composition Patterns",
+            "durationMinutes": 27
+          },
+          {
+            "id": "lesson-accessibility",
+            "title": "Accessible Component APIs",
+            "durationMinutes": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-python-data-analysis",
+    "title": "Python for Data Analysis",
+    "description": "Analyze datasets with pandas, visualize trends with matplotlib, and communicate insights clearly.",
+    "category": "Data Science",
+    "difficulty": "Beginner",
+    "durationMinutes": 660,
+    "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=450&fit=crop",
+    "instructor": "Dr. Priya Nair",
+    "rating": 4.8,
+    "enrolledCount": 15680,
+    "modules": [
+      {
+        "id": "mod-python-pandas",
+        "title": "Working with DataFrames",
+        "lessons": [
+          {
+            "id": "lesson-pandas-intro",
+            "title": "Introduction to pandas",
+            "durationMinutes": 22
+          },
+          {
+            "id": "lesson-filtering",
+            "title": "Filtering and Sorting",
+            "durationMinutes": 24
+          },
+          {
+            "id": "lesson-groupby",
+            "title": "Group By Aggregations",
+            "durationMinutes": 28
+          }
+        ]
+      },
+      {
+        "id": "mod-python-viz",
+        "title": "Visualization",
+        "lessons": [
+          {
+            "id": "lesson-matplotlib",
+            "title": "Charts with matplotlib",
+            "durationMinutes": 26
+          },
+          {
+            "id": "lesson-storytelling",
+            "title": "Data Storytelling Basics",
+            "durationMinutes": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-ml-fundamentals",
+    "title": "Machine Learning Fundamentals",
+    "description": "Understand supervised learning, model evaluation, and practical workflows for training and deploying models.",
+    "category": "Data Science",
+    "difficulty": "Advanced",
+    "durationMinutes": 900,
+    "thumbnail": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=450&fit=crop",
+    "instructor": "Dr. Priya Nair",
+    "rating": 4.9,
+    "enrolledCount": 7340,
+    "modules": [
+      {
+        "id": "mod-ml-basics",
+        "title": "Core Concepts",
+        "lessons": [
+          {
+            "id": "lesson-ml-overview",
+            "title": "What Is Machine Learning?",
+            "durationMinutes": 16
+          },
+          {
+            "id": "lesson-train-test",
+            "title": "Train/Test Splits",
+            "durationMinutes": 24
+          },
+          {
+            "id": "lesson-bias-variance",
+            "title": "Bias-Variance Tradeoff",
+            "durationMinutes": 30
+          }
+        ]
+      },
+      {
+        "id": "mod-ml-models",
+        "title": "Model Families",
+        "lessons": [
+          {
+            "id": "lesson-linear-regression",
+            "title": "Linear Regression",
+            "durationMinutes": 32
+          },
+          {
+            "id": "lesson-classification",
+            "title": "Classification Models",
+            "durationMinutes": 34
+          },
+          {
+            "id": "lesson-evaluation",
+            "title": "Evaluation Metrics",
+            "durationMinutes": 28
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-product-management",
+    "title": "Product Management Essentials",
+    "description": "Prioritize roadmaps, write effective PRDs, and align engineering and design around customer outcomes.",
+    "category": "Business",
+    "difficulty": "Beginner",
+    "durationMinutes": 420,
+    "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=450&fit=crop",
+    "instructor": "Taylor Brooks",
+    "rating": 4.5,
+    "enrolledCount": 9210,
+    "modules": [
+      {
+        "id": "mod-pm-discovery",
+        "title": "Discovery",
+        "lessons": [
+          {
+            "id": "lesson-customer-interviews",
+            "title": "Customer Interviews",
+            "durationMinutes": 18
+          },
+          {
+            "id": "lesson-problem-framing",
+            "title": "Problem Framing",
+            "durationMinutes": 20
+          },
+          {
+            "id": "lesson-opportunity-sizing",
+            "title": "Opportunity Sizing",
+            "durationMinutes": 22
+          }
+        ]
+      },
+      {
+        "id": "mod-pm-delivery",
+        "title": "Delivery",
+        "lessons": [
+          {
+            "id": "lesson-writing-prds",
+            "title": "Writing PRDs",
+            "durationMinutes": 24
+          },
+          {
+            "id": "lesson-prioritization",
+            "title": "Prioritization Frameworks",
+            "durationMinutes": 26
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-devops-ci-cd",
+    "title": "DevOps and CI/CD Pipelines",
+    "description": "Automate builds, tests, and deployments with GitHub Actions and modern release workflows.",
+    "category": "DevOps",
+    "difficulty": "Intermediate",
+    "durationMinutes": 540,
+    "thumbnail": "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?w=800&h=450&fit=crop",
+    "instructor": "Chris Okonkwo",
+    "rating": 4.7,
+    "enrolledCount": 6120,
+    "modules": [
+      {
+        "id": "mod-devops-basics",
+        "title": "Pipeline Foundations",
+        "lessons": [
+          {
+            "id": "lesson-ci-cd-overview",
+            "title": "CI/CD Overview",
+            "durationMinutes": 16
+          },
+          {
+            "id": "lesson-github-actions",
+            "title": "GitHub Actions Basics",
+            "durationMinutes": 28
+          },
+          {
+            "id": "lesson-environments",
+            "title": "Environment Promotion",
+            "durationMinutes": 24
+          }
+        ]
+      },
+      {
+        "id": "mod-devops-ops",
+        "title": "Operations",
+        "lessons": [
+          {
+            "id": "lesson-monitoring",
+            "title": "Monitoring and Alerts",
+            "durationMinutes": 26
+          },
+          {
+            "id": "lesson-rollbacks",
+            "title": "Safe Rollbacks",
+            "durationMinutes": 22
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-react-native-mobile",
+    "title": "React Native Mobile Development",
+    "description": "Ship cross-platform mobile apps with React Native, navigation, and native module integration patterns.",
+    "category": "Mobile",
+    "difficulty": "Advanced",
+    "durationMinutes": 780,
+    "thumbnail": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=450&fit=crop",
+    "instructor": "Alex Rivera",
+    "rating": 4.6,
+    "enrolledCount": 4890,
+    "modules": [
+      {
+        "id": "mod-rn-setup",
+        "title": "Project Setup",
+        "lessons": [
+          {
+            "id": "lesson-expo-vs-bare",
+            "title": "Expo vs Bare Workflow",
+            "durationMinutes": 20
+          },
+          {
+            "id": "lesson-navigation",
+            "title": "Navigation Patterns",
+            "durationMinutes": 30
+          },
+          {
+            "id": "lesson-styling",
+            "title": "Styling for Mobile",
+            "durationMinutes": 24
+          }
+        ]
+      },
+      {
+        "id": "mod-rn-native",
+        "title": "Native Integration",
+        "lessons": [
+          {
+            "id": "lesson-device-apis",
+            "title": "Device APIs",
+            "durationMinutes": 28
+          },
+          {
+            "id": "lesson-performance",
+            "title": "Performance Optimization",
+            "durationMinutes": 32
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-accessible-web",
+    "title": "Accessible Web Development",
+    "description": "Build inclusive interfaces with semantic HTML, ARIA patterns, keyboard navigation, and WCAG-aligned testing.",
+    "category": "Web Development",
+    "difficulty": "Intermediate",
+    "durationMinutes": 360,
+    "thumbnail": "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=800&h=450&fit=crop",
+    "instructor": "Morgan Chen",
+    "rating": 4.9,
+    "enrolledCount": 3780,
+    "modules": [
+      {
+        "id": "mod-a11y-basics",
+        "title": "Accessibility Foundations",
+        "lessons": [
+          {
+            "id": "lesson-semantic-html",
+            "title": "Semantic HTML",
+            "durationMinutes": 18
+          },
+          {
+            "id": "lesson-keyboard",
+            "title": "Keyboard Navigation",
+            "durationMinutes": 22
+          },
+          {
+            "id": "lesson-color-contrast",
+            "title": "Color and Contrast",
+            "durationMinutes": 16
+          }
+        ]
+      },
+      {
+        "id": "mod-a11y-patterns",
+        "title": "Patterns and Testing",
+        "lessons": [
+          {
+            "id": "lesson-aria",
+            "title": "ARIA When You Need It",
+            "durationMinutes": 24
+          },
+          {
+            "id": "lesson-testing-a11y",
+            "title": "Testing for Accessibility",
+            "durationMinutes": 26
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-sql-analytics",
+    "title": "SQL for Analytics",
+    "description": "Write analytical queries, window functions, and CTEs to answer business questions from relational data.",
+    "category": "Data Science",
+    "difficulty": "Beginner",
+    "durationMinutes": 480,
+    "thumbnail": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=800&h=450&fit=crop",
+    "instructor": "Sam Patel",
+    "rating": 4.7,
+    "enrolledCount": 11200,
+    "modules": [
+      {
+        "id": "mod-sql-queries",
+        "title": "Query Fundamentals",
+        "lessons": [
+          {
+            "id": "lesson-select-where",
+            "title": "SELECT and WHERE",
+            "durationMinutes": 20
+          },
+          {
+            "id": "lesson-joins",
+            "title": "JOIN Types Explained",
+            "durationMinutes": 28
+          },
+          {
+            "id": "lesson-aggregations",
+            "title": "Aggregations and GROUP BY",
+            "durationMinutes": 26
+          }
+        ]
+      },
+      {
+        "id": "mod-sql-advanced",
+        "title": "Advanced Analytics",
+        "lessons": [
+          {
+            "id": "lesson-window-functions",
+            "title": "Window Functions",
+            "durationMinutes": 30
+          },
+          {
+            "id": "lesson-ctes",
+            "title": "Common Table Expressions",
+            "durationMinutes": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-leadership-engineers",
+    "title": "Leadership for Senior Engineers",
+    "description": "Grow from strong IC to technical leader through mentorship, influence, and effective cross-functional communication.",
+    "category": "Business",
+    "difficulty": "Advanced",
+    "durationMinutes": 300,
+    "thumbnail": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=450&fit=crop",
+    "instructor": "Taylor Brooks",
+    "rating": 4.8,
+    "enrolledCount": 2540,
+    "modules": [
+      {
+        "id": "mod-leadership-influence",
+        "title": "Influence Without Authority",
+        "lessons": [
+          {
+            "id": "lesson-stakeholder-mgmt",
+            "title": "Stakeholder Management",
+            "durationMinutes": 22
+          },
+          {
+            "id": "lesson-technical-decisions",
+            "title": "Making Technical Decisions",
+            "durationMinutes": 26
+          },
+          {
+            "id": "lesson-mentorship",
+            "title": "Effective Mentorship",
+            "durationMinutes": 24
+          }
+        ]
+      }
+    ]
+  }
+]
